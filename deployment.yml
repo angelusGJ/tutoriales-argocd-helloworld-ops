@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: 'registry.kube-system/ci-20:latest'
+          image: 'registry.kube-system.svc.cluster.local/ci-20:latest'
           ports:
             - name: webserver
               containerPort: 80
